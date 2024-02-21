@@ -1,0 +1,48 @@
+.successContainer {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 110;
+}
+.successCard {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.success_header {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.success_text {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.success_ok_button {
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,259 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-repeat: initial;
+  background-image: url("../../public/background.jpeg");
+  background-size: auto 100%;
+  position: relative;
+}
+.linear {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(36, 117, 105, 0.9),
+    rgba(36, 117, 105, 0.9)
+  );
+  z-index: 0;
+}
+.logo {
+  width: 250px;
+  color: white;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.main_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 55px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+.header2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+.time_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.time_child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.time {
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 10px;
+}
+.type {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.subscribe_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.input_tag {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px 35px 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.subscribe_button {
+  background-color: #000000;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.note {
+  margin-top: 30px;
+  font-size: 12px;
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.youtube_vd {
+  width: 470px;
+  height: 350px;
+  border-radius: 8px;
+}
+@media (max-width: 1000px) {
+  .header {
+    font-size: 45px;
+  }
+  .header2 {
+    font-size: 20px;
+  }
+  .youtube_vd {
+    width: 470px;
+    height: 350px;
+  }
+  .subscribe_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .input_tag {
+    font-size: 16px;
+    padding: 15px 200px 15px 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .subscribe_button {
+    padding: 15px 25px;
+    font-size: 13px;
+  }
+  .time_child {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  .time {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .type {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    width: 150px;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .header2 {
+    font-size: 15px;
+  }
+  .youtube_vd {
+    width: 300px;
+    height: 150px;
+  }
+  .input_tag {
+    font-size: 16px;
+    padding: 15px 150px 15px 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .subscribe_button {
+    padding: 15px 25px;
+    font-size: 13px;
+  }
+  .time_child {
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .time {
+    font-size: 25px;
+  }
+  .type {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    width: 150px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .header2 {
+    font-size: 10px;
+  }
+  .youtube_vd {
+    width: 250px;
+    height: 125px;
+  }
+  .input_tag {
+    font-size: 16px;
+    padding: 15px 70px 15px 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .subscribe_button {
+    padding: 15px 25px;
+    font-size: 13px;
+  }
+  .time_child {
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .time {
+    font-size: 15px;
+  }
+  .type {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+  }
+}
