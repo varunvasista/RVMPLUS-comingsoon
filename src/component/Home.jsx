@@ -21,7 +21,7 @@ export default function Home() {
   const emailRef = useRef();
   const phoneRef = useRef();
 
-  const deadLine = new Date(2024, 2, 10);
+  const deadLine = new Date(2024, 2, 15);
   let count = setInterval(() => {
     const currDate = new Date();
     let currTimeMili = currDate.getTime();
